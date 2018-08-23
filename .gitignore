@@ -1,6 +1,28 @@
+# Datasets
+list_attr_celeba.txt 
+*.zip
+*.npz
+*.npy
+*ubyte.gz
+*archive.ics.uci.edu*
+code/model_zoo/cifar-10
+code/model_zoo/pytorch_ipynb/data
+
+# Binary PyTorch models
+*.pt
+
 # Temporary OS files
 .DS_Store
 
+# TensorFlow Checkpoint files
+checkpoint
+code/*/*.data-?????-of-?????
+code/*/*.index
+code/*/*.meta
+code/model_zoo/tensorflow_ipynb/*.data-?????-of-?????
+code/model_zoo/tensorflow_ipynb/*.index
+code/model_zoo/tensorflow_ipynb/*.meta
+code/model_zoo/tensorflow_ipynb/cifar-10/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -91,3 +113,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Datasets
+MNIST*
